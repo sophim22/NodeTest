@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-duplicate-imports": "error",
+    "no-unused-vars": "warn",
+    "consistent-return": "warn",
+    "import/prefer-default-export": "off"
+  }
+} 
